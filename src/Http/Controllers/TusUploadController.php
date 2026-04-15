@@ -1,6 +1,6 @@
 <?php
 
-namespace KalynaSolutions\Tus\Http\Controllers;
+namespace ArthurPatriot\Tus\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

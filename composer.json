@@ -35,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "KalynaSolutions\\Tus\\": "src/"
+            "ArthurPatriot\\Tus\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KalynaSolutions\\Tus\\Tests\\": "tests/"
+            "ArthurPatriot\\Tus\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -60,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KalynaSolutions\\Tus\\TusServiceProvider"
+                "ArthurPatriot\\Tus\\TusServiceProvider"
             ],
             "aliases": {
-                "Tus": "KalynaSolutions\\Tus\\Facades\\Tus"
+                "Tus": "ArthurPatriot\\Tus\\Facades\\Tus"
             }
         }
     },

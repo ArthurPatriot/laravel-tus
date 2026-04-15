@@ -1,8 +1,8 @@
 <?php
 
-namespace KalynaSolutions\Tus;
+namespace ArthurPatriot\Tus;
 
-use KalynaSolutions\Tus\Commands\TusPruneExpiredUploadsCommand;
+use ArthurPatriot\Tus\Commands\TusPruneExpiredUploadsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

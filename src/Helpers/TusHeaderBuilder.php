@@ -1,10 +1,10 @@
 <?php
 
-namespace KalynaSolutions\Tus\Helpers;
+namespace ArthurPatriot\Tus\Helpers;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Facades\Date;
-use KalynaSolutions\Tus\Facades\Tus;
+use ArthurPatriot\Tus\Facades\Tus;
 
 class TusHeaderBuilder implements Arrayable
 {

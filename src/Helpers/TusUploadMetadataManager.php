@@ -1,9 +1,9 @@
 <?php
 
-namespace KalynaSolutions\Tus\Helpers;
+namespace ArthurPatriot\Tus\Helpers;
 
 use Illuminate\Support\Str;
-use KalynaSolutions\Tus\Facades\Tus;
+use ArthurPatriot\Tus\Facades\Tus;
 
 class TusUploadMetadataManager
 {

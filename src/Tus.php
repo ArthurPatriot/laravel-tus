@@ -1,15 +1,15 @@
 <?php
 
-namespace KalynaSolutions\Tus;
+namespace ArthurPatriot\Tus;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Illuminate\Support\Stringable;
-use KalynaSolutions\Tus\Exceptions\FileAppendException;
-use KalynaSolutions\Tus\Helpers\TusHeaderBuilder;
-use KalynaSolutions\Tus\Helpers\TusUploadMetadataManager;
+use ArthurPatriot\Tus\Exceptions\FileAppendException;
+use ArthurPatriot\Tus\Helpers\TusHeaderBuilder;
+use ArthurPatriot\Tus\Helpers\TusUploadMetadataManager;
 
 class Tus
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace KalynaSolutions\Tus\Events;
+namespace ArthurPatriot\Tus\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Http\Request;

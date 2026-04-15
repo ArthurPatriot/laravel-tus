@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use KalynaSolutions\Tus\Http\Controllers\TusUploadController;
-use KalynaSolutions\Tus\Http\Middleware\ValidateChecksumMiddleware;
-use KalynaSolutions\Tus\Http\Middleware\ValidateFileSizeMiddleware;
-use KalynaSolutions\Tus\Http\Middleware\ValidateVersionMiddleware;
+use ArthurPatriot\Tus\Http\Controllers\TusUploadController;
+use ArthurPatriot\Tus\Http\Middleware\ValidateChecksumMiddleware;
+use ArthurPatriot\Tus\Http\Middleware\ValidateFileSizeMiddleware;
+use ArthurPatriot\Tus\Http\Middleware\ValidateVersionMiddleware;
 
 Route::controller(TusUploadController::class)
     ->middleware([...config('tus.middleware'), ValidateVersionMiddleware::class])

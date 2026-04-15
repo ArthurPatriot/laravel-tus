@@ -1,11 +1,11 @@
 <?php
 
-namespace KalynaSolutions\Tus\Http\Middleware;
+namespace ArthurPatriot\Tus\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use KalynaSolutions\Tus\Exceptions\VersionMismatchException;
-use KalynaSolutions\Tus\Facades\Tus;
+use ArthurPatriot\Tus\Exceptions\VersionMismatchException;
+use ArthurPatriot\Tus\Facades\Tus;
 use Symfony\Component\HttpFoundation\Response;
 
 class ValidateVersionMiddleware

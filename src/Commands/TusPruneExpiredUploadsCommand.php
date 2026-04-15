@@ -1,9 +1,9 @@
 <?php
 
-namespace KalynaSolutions\Tus\Commands;
+namespace ArthurPatriot\Tus\Commands;
 
 use Illuminate\Console\Command;
-use KalynaSolutions\Tus\Facades\Tus;
+use ArthurPatriot\Tus\Facades\Tus;
 
 class TusPruneExpiredUploadsCommand extends Command
 {

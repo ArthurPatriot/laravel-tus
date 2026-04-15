@@ -1,8 +1,8 @@
 <?php
 
-namespace KalynaSolutions\Tus\Exceptions;
+namespace ArthurPatriot\Tus\Exceptions;
 
-use KalynaSolutions\Tus\Facades\Tus;
+use ArthurPatriot\Tus\Facades\Tus;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ChecksumMismatchException extends HttpException

@@ -1,16 +1,16 @@
 <?php
 
-namespace KalynaSolutions\Tus\Facades;
+namespace ArthurPatriot\Tus\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \KalynaSolutions\Tus\Tus
+ * @see \ArthurPatriot\Tus\Tus
  */
 class Tus extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \KalynaSolutions\Tus\Tus::class;
+        return \ArthurPatriot\Tus\Tus::class;
     }
 }

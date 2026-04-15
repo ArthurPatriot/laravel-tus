@@ -1,9 +1,9 @@
 <?php
 
-namespace KalynaSolutions\Tus\Events;
+namespace ArthurPatriot\Tus\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
-use KalynaSolutions\Tus\Helpers\TusFile;
+use ArthurPatriot\Tus\Helpers\TusFile;
 
 class FileUploadCreated
 {

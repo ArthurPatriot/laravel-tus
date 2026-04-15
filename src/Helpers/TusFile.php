@@ -1,9 +1,9 @@
 <?php
 
-namespace KalynaSolutions\Tus\Helpers;
+namespace ArthurPatriot\Tus\Helpers;
 
-use KalynaSolutions\Tus\Exceptions\FileNotFoundException;
-use KalynaSolutions\Tus\Facades\Tus;
+use ArthurPatriot\Tus\Exceptions\FileNotFoundException;
+use ArthurPatriot\Tus\Facades\Tus;
 
 final readonly class TusFile
 {
