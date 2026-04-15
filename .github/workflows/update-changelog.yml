@@ -1,4 +1,4 @@
-name: Update Changelog
+name: "Update Changelog"
 
 on:
   release:
@@ -10,6 +10,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout code
@@ -27,5 +28,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           branch: main
-          commit_message: "refactor: update changelog"
+          commit_message: Update CHANGELOG
           file_pattern: CHANGELOG.md

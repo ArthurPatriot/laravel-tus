@@ -11,6 +11,7 @@ permissions:
 jobs:
   php-code-styling:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout code
@@ -24,4 +25,4 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "fix: styling"
+          commit_message: Fix styling
