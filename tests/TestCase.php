@@ -1,10 +1,10 @@
 <?php
 
-namespace  ArthurPatriot\Tus\Tests;
+namespace ArthurPatriot\Tus\Tests;
 
+use ArthurPatriot\Tus\TusServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use ArthurPatriot\Tus\TusServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -12,9 +12,9 @@ class TestCase extends Orchestra
     {
         parent::setUp();
 
-         Factory::guessFactoryNamesUsing(
-             fn (string $modelName) => 'ArthurPatriot\\Tus\\Database\\Factories\\'.class_basename($modelName).'Factory'
-         );
+        Factory::guessFactoryNamesUsing(
+            fn (string $modelName) => 'ArthurPatriot\\Tus\\Database\\Factories\\'.class_basename($modelName).'Factory'
+        );
     }
 
     protected function getPackageProviders($app)

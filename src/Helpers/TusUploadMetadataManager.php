@@ -2,8 +2,8 @@
 
 namespace ArthurPatriot\Tus\Helpers;
 
-use Illuminate\Support\Str;
 use ArthurPatriot\Tus\Facades\Tus;
+use Illuminate\Support\Str;
 
 class TusUploadMetadataManager
 {
