@@ -2,15 +2,15 @@
 
 namespace ArthurPatriot\Tus\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
-use Illuminate\Routing\Controller as BaseController;
 use ArthurPatriot\Tus\Events\FileUploadBeforeCreated;
 use ArthurPatriot\Tus\Events\FileUploadCreated;
 use ArthurPatriot\Tus\Events\FileUploadFinished;
 use ArthurPatriot\Tus\Events\FileUploadStarted;
 use ArthurPatriot\Tus\Facades\Tus;
 use ArthurPatriot\Tus\Helpers\TusFile;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Illuminate\Routing\Controller as BaseController;
 
 class TusUploadController extends BaseController
 {
