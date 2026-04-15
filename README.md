@@ -1,12 +1,12 @@
 # Laravel Tus Package with native support of Uppy.js / Laravel Octane
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/kalynasolutions/laravel-tus.svg?style=flat-square)](https://packagist.org/packages/kalynasolutions/laravel-tus)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/kalynasolutions/laravel-tus/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/kalynasolutions/laravel-tus/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/kalynasolutions/laravel-tus/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/kalynasolutions/laravel-tus/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/kalynasolutions/laravel-tus.svg?style=flat-square)](https://packagist.org/packages/kalynasolutions/laravel-tus)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/arthurpatriot/laravel-tus.svg?style=flat-square)](https://packagist.org/packages/arthurpatriot/laravel-tus)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/arthurpatriot/laravel-tus/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/arthurpatriot/laravel-tus/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/arthurpatriot/laravel-tus/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/arthurpatriot/laravel-tus/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/arthurpatriot/laravel-tus.svg?style=flat-square)](https://packagist.org/packages/arthurpatriot/laravel-tus)
 
-![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/kalynasolutions/laravel-tus/php?style=flat-square)
-![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/kalynasolutions/laravel-tus/illuminate/contracts?color=%23F05340&label=laravel&style=flat-square)
+![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/arthurpatriot/laravel-tus/php?style=flat-square)
+![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/arthurpatriot/laravel-tus/illuminate/contracts?color=%23F05340&label=laravel&style=flat-square)
 [![Tus.io Protocol Version](https://img.shields.io/badge/tus.io_protocol-1.0.0-brightgreen?style=flat-square)](https://tus.io/protocols/resumable-upload.html)
 
 Laravel package for handling resumable file uploads with tus protocol and native [Uppy.js](https://uppy.io) support **without** additional Tus servers.
@@ -16,7 +16,7 @@ Laravel package for handling resumable file uploads with tus protocol and native
 You can install the package via composer:
 
 ```bash
-composer require kalynasolutions/laravel-tus
+composer require arthurpatriot/laravel-tus
 ```
 
 You can publish the config file with (optional):
@@ -47,7 +47,7 @@ This package dispatches the following events:
 You can listen to these events in your `EventServiceProvider`:
 
 ```php
-use KalynaSolutions\Tus\Events\TusUploadCreated;
+use ArthurPatriot\Tus\Events\TusUploadCreated;
 
 protected $listen = [
     TusUploadCreated::class => [

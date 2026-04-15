@@ -5,12 +5,12 @@ namespace ArthurPatriot\Tus\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller as BaseController;
-use KalynaSolutions\Tus\Events\FileUploadBeforeCreated;
-use KalynaSolutions\Tus\Events\FileUploadCreated;
-use KalynaSolutions\Tus\Events\FileUploadFinished;
-use KalynaSolutions\Tus\Events\FileUploadStarted;
-use KalynaSolutions\Tus\Facades\Tus;
-use KalynaSolutions\Tus\Helpers\TusFile;
+use ArthurPatriot\Tus\Events\FileUploadBeforeCreated;
+use ArthurPatriot\Tus\Events\FileUploadCreated;
+use ArthurPatriot\Tus\Events\FileUploadFinished;
+use ArthurPatriot\Tus\Events\FileUploadStarted;
+use ArthurPatriot\Tus\Facades\Tus;
+use ArthurPatriot\Tus\Helpers\TusFile;
 
 class TusUploadController extends BaseController
 {
