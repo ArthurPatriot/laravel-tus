@@ -2,6 +2,19 @@
 
 All notable changes to `laravel-tus` will be documented in this file.
 
+## v1.4.0 - 2026-04-15
+
+### What's Changed
+
+* build(deps): bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/ArthurPatriot/laravel-tus/pull/41
+* Laravel 13.x Compatibility by @laravel-shift in https://github.com/ArthurPatriot/laravel-tus/pull/42
+
+### New Contributors
+
+* @laravel-shift made their first contribution in https://github.com/ArthurPatriot/laravel-tus/pull/42
+
+**Full Changelog**: https://github.com/ArthurPatriot/laravel-tus/compare/v1.3.1...v1.4.0
+
 ## v1.3.1 - 2025-12-10
 
 ### What's Changed
