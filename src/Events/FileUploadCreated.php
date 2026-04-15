@@ -2,8 +2,8 @@
 
 namespace ArthurPatriot\Tus\Events;
 
-use Illuminate\Foundation\Events\Dispatchable;
 use ArthurPatriot\Tus\Helpers\TusFile;
+use Illuminate\Foundation\Events\Dispatchable;
 
 class FileUploadCreated
 {

@@ -2,8 +2,8 @@
 
 namespace ArthurPatriot\Tus\Commands;
 
-use Illuminate\Console\Command;
 use ArthurPatriot\Tus\Facades\Tus;
+use Illuminate\Console\Command;
 
 class TusPruneExpiredUploadsCommand extends Command
 {

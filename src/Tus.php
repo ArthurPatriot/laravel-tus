@@ -2,14 +2,14 @@
 
 namespace ArthurPatriot\Tus;
 
+use ArthurPatriot\Tus\Exceptions\FileAppendException;
+use ArthurPatriot\Tus\Helpers\TusHeaderBuilder;
+use ArthurPatriot\Tus\Helpers\TusUploadMetadataManager;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Illuminate\Support\Stringable;
-use ArthurPatriot\Tus\Exceptions\FileAppendException;
-use ArthurPatriot\Tus\Helpers\TusHeaderBuilder;
-use ArthurPatriot\Tus\Helpers\TusUploadMetadataManager;
 
 class Tus
 {

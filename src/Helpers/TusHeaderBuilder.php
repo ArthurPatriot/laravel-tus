@@ -2,9 +2,9 @@
 
 namespace ArthurPatriot\Tus\Helpers;
 
+use ArthurPatriot\Tus\Facades\Tus;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Facades\Date;
-use ArthurPatriot\Tus\Facades\Tus;
 
 class TusHeaderBuilder implements Arrayable
 {

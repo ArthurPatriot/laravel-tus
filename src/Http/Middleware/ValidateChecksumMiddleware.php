@@ -2,11 +2,11 @@
 
 namespace ArthurPatriot\Tus\Http\Middleware;
 
-use Closure;
-use Illuminate\Http\Request;
 use ArthurPatriot\Tus\Exceptions\ChecksumAlgorithmMismatchException;
 use ArthurPatriot\Tus\Exceptions\ChecksumMismatchException;
 use ArthurPatriot\Tus\Facades\Tus;
+use Closure;
+use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class ValidateChecksumMiddleware
